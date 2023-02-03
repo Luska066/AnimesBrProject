@@ -1,12 +1,13 @@
-const itemLuffy = document.querySelector('#item1');
-const itemZoro = document.querySelector('#item2');
-const itemNami = document.querySelector('#item3')
-const itemUsopp = document.querySelector('#item4')
-const clipOn = document.querySelector('#apresentationImage')
-const imgLuffy = document.querySelector('.lufti')
-const imgZoro = document.querySelector('.zoro')
-const imgNami = document.querySelector('.nami')
-const imgUsopp= document.querySelector('.usopp') 
+let itemLuffy = document.querySelector('#item1');
+let itemZoro = document.querySelector('#item2');
+let itemNami = document.querySelector('#item3')
+let itemUsopp = document.querySelector('#item4')
+let clipOn = document.querySelector('#apresentationImage')
+let imgLuffy = document.querySelector('.lufti')
+let imgZoro = document.querySelector('.zoro')
+let imgNami = document.querySelector('.nami')
+let imgUsopp= document.querySelector('.usopp')
+
 
 function imprimirNami(){
    
