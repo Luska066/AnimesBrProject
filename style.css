@@ -100,6 +100,7 @@
     text-shadow: 2px 2px 8px rgb(114, 112, 112);
 }
 
+<<<<<<< HEAD
 #contextText{
     display: flex;
     align-items:center;
@@ -207,6 +208,8 @@
 }
 
 
+=======
+>>>>>>> d42e048d0d212c85a041a4c76d24f67abf504439
 .clip{
     display: none;
 
@@ -235,4 +238,105 @@
  .usopp{
     width: 850px;
 
+<<<<<<< HEAD
+=======
+}
+
+
+@keyframes circleObject {
+    0%{
+        clip-path: circle(60.0% at 100% 110%);
+    }
+   
+    100%{
+        clip-path: circle(60.0% at 80% 90%);
+    }
+}
+
+@keyframes circleObjectTwo {
+    0%{
+        clip-path: circle(60.0% at 80% 90%);
+        
+    }
+   
+    100%{
+        clip-path: circle(60.0% at 100% 110%);
+    }
+}
+@keyframes zoroColorAnimation {
+  0%{
+    background-color: #f0850a;
+  }   
+
+  100%{
+    background-color: #18E225;
+  }
+}
+
+@keyframes displayONOFF {
+    0%{
+        opacity: 1;
+    } 
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes displayOFFON {
+    0%{
+        opacity: 0;
+        
+    } 
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes AnimationPersonInitial {
+    0%{
+        position: absolute;
+        left: 90%;
+    }
+
+    50%{
+        position: absolute;
+        left: 72%;
+    }
+
+
+    100%{
+        position: absolute;
+        left: 65%;
+    }
+  
+}
+
+@keyframes AnimationPersonFinal {
+   
+    0%{
+        position: absolute;
+        left: 65%;
+    }
+
+    25%{
+        position: absolute;
+        left: 72%;
+    }
+
+    50%{
+        position: absolute;
+        left: 82%;
+    }
+
+    100%{
+        position: absolute;
+        left: 98%;
+    }
+
+   
+
+
+   
+  
+>>>>>>> d42e048d0d212c85a041a4c76d24f67abf504439
 }

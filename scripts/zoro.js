@@ -10,6 +10,7 @@ let imgUsopp= document.querySelector('.usopp')
 
 
 
+<<<<<<< HEAD
 function imprimirZoro(){
  
     AnimationFunctionImageZoroAbrindo()
@@ -21,6 +22,21 @@ function imprimirZoro(){
    
 
      
+=======
+
+
+
+function imprimirZoro(){
+
+    AnimationFunctionImageZoroAbrindo()
+
+    itemZoro.addEventListener('dblclick',(event) => {
+       
+        AnimationFunctionZoroFechando()
+
+    })
+    
+>>>>>>> d42e048d0d212c85a041a4c76d24f67abf504439
 }
 
 function AnimationFunctionImageZoroAbrindo(){
@@ -30,7 +46,11 @@ function AnimationFunctionImageZoroAbrindo(){
     imgZoro.style.left = '65%'
     imgLuffy.style.display = 'none'
     imgNami.style.display = 'none'
+<<<<<<< HEAD
     imgUsopp.style.display = 'none'
+=======
+
+>>>>>>> d42e048d0d212c85a041a4c76d24f67abf504439
 
     AnimationFunctionZoroObjectCircle()
 
@@ -64,3 +84,9 @@ function AnimationFunctionZoroObjectCircle(){
     clipOn.querySelector('p').style.animation = 'displayONOFF 1s linear'
     clipOn.querySelector('p').style.opacity = '0'
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> d42e048d0d212c85a041a4c76d24f67abf504439

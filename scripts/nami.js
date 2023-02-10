@@ -21,8 +21,11 @@ function imprimirNami(){
   
 }
 
+<<<<<<< HEAD
 imprimirNami()
 
+=======
+>>>>>>> d42e048d0d212c85a041a4c76d24f67abf504439
 
 function AnimationFunctionImageNamiAbrindo(){
     imgNami.style.animation = 'AnimationPersonInitial 1s linear'
