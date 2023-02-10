@@ -27,22 +27,18 @@ function AnimationFunctionImageLuffyAbrindo(){
     imgLuffy.style.left = '65%'
     imgZoro.style.display = 'none'
     imgUsopp.style.display='none'
-<<<<<<< HEAD
     imgNami.style.display = 'none'
-=======
->>>>>>> d42e048d0d212c85a041a4c76d24f67abf504439
     AnimationFunctionLuffyObjectCircle();
     
 }
 
 function AnimationFunctionLuffyObjectCircle(){
     const h2 = document.querySelector('h2');
-<<<<<<< HEAD
-   h2.innerText = 'Luffy'
-=======
-    const nomePerson = 'luffy selecinado'
 
->>>>>>> d42e048d0d212c85a041a4c76d24f67abf504439
+     h2.innerText = 'Luffy'
+
+
+
     clipOn.style.animation = 'circleObject 1s linear'
     clipOn.style.clipPath = 'circle(60.0% at 80% 90%)'
     clipOn.setAttribute('class','clipOff');
@@ -85,16 +81,9 @@ function AnimationFunctionImageZoroAbrindo(){
     imgZoro.style.left = '65%'
     imgLuffy.style.display = 'none'
     imgNami.style.display = 'none'
-<<<<<<< HEAD
+
     imgUsopp.style.display = 'none'
-=======
-
->>>>>>> d42e048d0d212c85a041a4c76d24f67abf504439
-
     AnimationFunctionZoroObjectCircle()
-
-
-
 }
 
 function AnimationFunctionZoroFechando(){
@@ -110,11 +99,9 @@ function AnimationFunctionZoroFechando(){
 
 function AnimationFunctionZoroObjectCircle(){
     const h2 = document.querySelector('h2');
-<<<<<<< HEAD
     const nomePerson = 'Zoro'
-=======
-    const nomePerson = 'Zoro selecinado'
->>>>>>> d42e048d0d212c85a041a4c76d24f67abf504439
+
+
 
     h2.innerText = nomePerson
    
@@ -175,11 +162,8 @@ function AnimationFunctionNamiFechando(){
 
 function AnimationFunctionNamiObjectCircle(){
     const h2 = document.querySelector('h2');
-<<<<<<< HEAD
     h2.innerText = 'Nami';
-=======
-    h2.innerText = 'Nami selecinado';
->>>>>>> d42e048d0d212c85a041a4c76d24f67abf504439
+
 
     clipOn.setAttribute('class','clipOff');
     clipOn.style.clipPath = 'circle(60.0% at 80% 90%)';
@@ -225,12 +209,8 @@ function AnimationFunctionImageUsoppAbrindo(){
 
 function AnimationFunctionUsoppObjectCircle(){
     const h2 = document.querySelector('h2');
-<<<<<<< HEAD
     const nomePerson = 'Usopp'
 
-=======
-    const nomePerson = 'Usopp selecinado'
->>>>>>> d42e048d0d212c85a041a4c76d24f67abf504439
     h2.innerText = nomePerson
     clipOn.setAttribute('class','clipOff');
     document.querySelector('#apresentationImage').style.backgroundColor = "#EB141B"
