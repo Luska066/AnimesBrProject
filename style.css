@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+/*-----------------------Header-------------------*/
+#containerFather{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    background-color:  white;
+    box-shadow: 0px 2px 10px rgb(177, 177, 177);
+}
+
+
+#containerHeader{
+    width: 100vw;
+    height: 19vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#titleContainerHeader{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-left: 8%;
+    align-items: center;
+    justify-content: left;
+
+
+    font-family: Caviar Dreams;
+    font-size: 2.6rem;
+}
+
+#barNavigationContainerHeader{
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#item_Navigation{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+    flex-wrap: wrap;
+    
+    
+}
+
+#item_Navigation > li{
+    list-style: none;
+  
+}
+
+/*-----------------Conteudo Da Pagina-----------------*/
+#apresentationContent{
+    width: 100vw;
+    height: 80vh ;
+    display: flex;
+}
+
+#contextText, #apresentationImage{
+
+    width: 50%;
+
+}
+
+#apresentationImage{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    box-shadow: -10px 0px 8px rgb(15, 15, 15);
+    transition: all 1s;
+}
+
+#apresentationImage>p{
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    color: white;
+    font-size: 2em;
+    position: relative;
+    bottom: 19%;
+    right: 4%;
+    display: block;
+    text-shadow: 2px 2px 8px rgb(114, 112, 112);
+}
+
+#contextText{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.name_Person {
+    position: relative;
+        padding-left: 30%;
+    font-family: one piece;
+    font-size: 20em;
+
+}
+
+@keyframes circleObject {
+    0%{
+        clip-path: circle(60.0% at 100% 110%);
+    }
+    
+    100%{
+        clip-path: circle(60.0% at 80% 90%);
+    }
+}
+
+@keyframes circleObjectTwo {
+    0%{
+        clip-path: circle(60.0% at 80% 90%);
+        
+    }
+    
+    100%{
+        clip-path: circle(60.0% at 100% 110%);
+    }
+}
+@keyframes zoroColorAnimation {
+    0%{
+        background-color: #f0850a;
+    }   
+    
+    100%{
+        background-color: #18E225;
+    }
+}
+
+@keyframes displayONOFF {
+    0%{
+        opacity: 1;
+    } 
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes displayOFFON {
+    0%{
+        opacity: 0;
+        
+    } 
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes AnimationPersonInitial {
+    0%{
+        position: absolute;
+        left: 90%;
+    }
+    
+    50%{
+        position: absolute;
+        left: 72%;
+    }
+    
+    
+    100%{
+        position: absolute;
+        left: 65%;
+    }
+    
+}
+
+@keyframes AnimationPersonFinal {
+    
+    0%{
+        position: absolute;
+        left: 65%;
+    }
+    
+    25%{
+        position: absolute;
+        left: 72%;
+    }
+    
+    50%{
+        position: absolute;
+        left: 82%;
+    }
+    
+    100%{
+        position: absolute;
+        left: 98%;
+    }
+
+}
+
+
+.clip{
+    display: none;
+
+}
+
+.clipOff{
+    background-color: #f0850a;
+    clip-path: circle(60.0% at 100% 110%);
+    transition: all .6s;
+
+}
+.lufti,.zoro,.nami,.usopp{
+    position: absolute;
+    width: 650px;
+    height: 750px;
+    left: 65%;
+    top: 29%;
+    display: none;
+
+ }
+
+ .nami{
+    width: 250px;
+ }
+
+ .usopp{
+    width: 850px;
+
+}
